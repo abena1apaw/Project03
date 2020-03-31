@@ -1,7 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { Component} from 'react';
-import Field from './Field';
-import Button from './Button';
 import axios from 'axios';
 
 class Form extends Component {
