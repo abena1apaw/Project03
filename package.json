@@ -2,6 +2,7 @@
   "name": "project03",
   "version": "0.1.0",
   "private": true,
+  "main": "src/index.js",
   "homepage": "http://abena1apaw.github.io/Project03",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
