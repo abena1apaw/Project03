@@ -6,9 +6,8 @@ import About from "./component/About";
 import Contactus from './contact-form/src/App';
 import Navbar from './component/Navbar';
 import ToDoApp from './component/ToDoApp';
-
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Switch,
     Route,
     Link
