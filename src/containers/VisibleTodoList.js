@@ -1,9 +1,9 @@
 import { connect } from 'react-redux'
 import { toggleTodo } from '../actions'
-//import '../App.css';
 import TodoList from '../component/TodoList'
 
 const getVisibleTodos = (todos, filter) => {
+    // eslint-disable-next-line 
     switch (filter) {
         case 'SHOW_ALL':
             return todos

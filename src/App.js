@@ -1,17 +1,11 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import * as ReactBootstrap from "react-bootstrap";
 import About from "./component/About";
 import Contactus from './contact-form/src/App';
 import Navbar from './component/Navbar';
 import ToDoApp from './component/ToDoApp';
-import {
-    HashRouter as Router,
-    Switch,
-    Route,
-    Link
-} from "react-router-dom";                      
+import {HashRouter as Router, Switch, Route}  from "react-router-dom";                      
 
 
 const NavBar = () => {    
