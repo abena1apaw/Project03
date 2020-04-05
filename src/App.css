@@ -2,16 +2,10 @@
 body {
     background-color: lightblue;
 }
-/*li {
-    padding: 10px 0;
-    display:inline-block;
-}*/
 
 .App {
     text-align: center;
     background-color: magenta;
-    /*min-height: 200px;
-    min-width: 400px;*/
     margin: 40px auto;
 }
 
@@ -30,6 +24,10 @@ ul {
     padding-left: 0px;
     padding-top: 0px;
 }
+
+ul li::before {
+    content: "\200B";
+  }
 
 li {
     background-color: #cce5ff;
