@@ -1,6 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react'
-//import '../App.css';
 import PropTypes from 'prop-types'
 
 const Link = ({ active, children, onClick }) => (
