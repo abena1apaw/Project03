@@ -2,9 +2,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react'
 //import '../App.css';
 import { connect } from 'react-redux'
-import { addTodo } from '../actions'
+import { SubmitTodo } from '../actions'
 
-const AddTodo = ({ dispatch }) => {
+const SubmitTodo = ({ dispatch }) => {
     let input
 
     return (
@@ -16,12 +16,12 @@ const AddTodo = ({ dispatch }) => {
                     if (!input.value.trim()) {
                         return
                     }
-                    dispatch(addTodo(input.value))
+                    dispatch(SubmitTodo(input.value))
                     input.value = ''
                 }}
             >
                 <input ref={node => (input = node)} />
-                <button type="submit">Add Todo</button>
+                <button type="submit">Submit Todo</button>
             </form>
         
             </header>
@@ -29,5 +29,5 @@ const AddTodo = ({ dispatch }) => {
     )
 }
 
-export default connect()(AddTodo)
+export default connect()(SubmitTodo)
 
