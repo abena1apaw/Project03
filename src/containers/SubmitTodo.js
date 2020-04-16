@@ -4,7 +4,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { SubmitTodo } from '../actions'
 
-const SubmitTodo = ({ dispatch }) => {
+const submitTodo = ({ dispatch }) => {
     let input
 
     return (
@@ -29,5 +29,5 @@ const SubmitTodo = ({ dispatch }) => {
     )
 }
 
-export default connect()(SubmitTodo)
+export default connect()(submitTodo)
 
