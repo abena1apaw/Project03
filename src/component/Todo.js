@@ -9,9 +9,7 @@ const Todo = ({ onClick, completed, text }) => (
         }}
     >
         {text}
-        
     </li>
-        
 )
 
 Todo.propTypes = {

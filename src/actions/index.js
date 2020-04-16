@@ -1,12 +1,12 @@
-let nextTodoId = 0
+let TodoId = 0
 export const SubmitTodo = text => ({
-    type: 'ADD_TODO',
-    id: nextTodoId++,
+    type: 'SUBMIT_TODO',
+    id: TodoId++,
     text
 })
 
-export const setVisibilityFilter = filter => ({
-    type: 'SET_VISIBILITY_FILTER',
+export const createVisibilityFilter = filter => ({
+    type: 'CREATE_VISIBILITY_FILTER',
     filter
 })
 
@@ -15,8 +15,8 @@ export const toggleTodo = id => ({
     id
 })
 
-export const VisibilityFilters = {
-    SHOW_ALL: 'SHOW_ALL',
-    SHOW_COMPLETED: 'SHOW_COMPLETED',
-    SHOW_ACTIVE: 'SHOW_ACTIVE'
+export const getVisibilityFilters = {
+    DISPLAY_ALL: 'DISPLAY_ALL',
+    DISPLAY_COMPLETED: 'DISPLAY_COMPLETED',
+    DISPLAY_INCOMPLETE: 'DISPLAY_INCOMPLETE'
 }

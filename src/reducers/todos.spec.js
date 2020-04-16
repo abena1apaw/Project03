@@ -8,10 +8,10 @@ describe('todos reducer', () => {
         ).toEqual([])
     })
 
-    it('should handle ADD_TODO', () => {
+    it('should handle SUBMIT_TODO', () => {
         expect(
             todos([], {
-                type: 'ADD_TODO',
+                type: 'SUBMIT_TODO',
                 text: 'Run the tests',
                 id: 0
             })
@@ -31,7 +31,7 @@ describe('todos reducer', () => {
                     id: 0
                 }
             ], {
-                type: 'ADD_TODO',
+                type: 'SUBMIT_TODO',
                 text: 'Use Redux',
                 id: 1
             })
@@ -59,7 +59,7 @@ describe('todos reducer', () => {
                     id: 1
                 }
             ], {
-                type: 'ADD_TODO',
+                type: 'SUBMIT_TODO',
                 text: 'Fix the tests',
                 id: 2
             })

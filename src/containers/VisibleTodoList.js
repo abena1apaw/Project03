@@ -5,18 +5,18 @@ import TodoList from '../component/TodoList'
 const getVisibleTodos = (todos, filter) => {
     // eslint-disable-next-line 
     switch (filter) {
-        case 'SHOW_ALL':
+        case 'DISPLAY_ALL':
             return todos
-        case 'SHOW_COMPLETED':
+        case 'DISPLAY_COMPLETED':
             return todos.filter(t => t.completed)
-        case 'SHOW_ACTIVE':
+        case 'DISPLAY_INCOMPLETE':
             return todos.filter(t => !t.completed)
     }
 }
 
 const mapStateToProps = state => {
     return {
-        todos: getVisibleTodos(state.todos, state.visibilityFilter)
+        todos: getVisibleTodos(state.todos, state.getvisibilityFilter)
     }
 }
 
