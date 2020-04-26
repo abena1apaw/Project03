@@ -2,7 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import About from "./component/About";
-import Contactus from "./contact-form/src/App";
+import MemeApp from "./component/MemeApp";
 import Navbar from "./component/Navbar";
 import TodoApp from "./component/TodoApp";
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
@@ -19,8 +19,8 @@ const NavBar = () => {
           <Route path="/TodoApp" component={TodoApp}>
             <TodoApp />
           </Route>
-          <Route path="/Contactus" component={Contactus}>
-            <Contactus />
+          <Route path="/MemeApp" component={MemeApp}>
+            <MemeApp />
           </Route>
         </Switch>
       </Router>

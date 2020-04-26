@@ -30,9 +30,9 @@ const Navbar = () => {
                 To Do List
               </ReactBootstrap.Nav.Link>
             </Link>
-            <Link to="./Contactus">
-              <ReactBootstrap.Nav.Link href="#Contactus">
-                Contact Us
+            <Link to="./MemeApp">
+              <ReactBootstrap.Nav.Link href="#MemeApp">
+                Meme Generator
               </ReactBootstrap.Nav.Link>
             </Link>
           </ReactBootstrap.Nav>

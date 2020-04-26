@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 
-function Header() {
+const Header = () => {
   const headerStyle = {
     backgroundColor: "#800080",
     color: "#fff",
@@ -11,10 +11,9 @@ function Header() {
   return (
     <header style={headerStyle}>
       <h1 style={{ fontSize: "25px", lineHeight: "1.447em", margin: "0px" }}>
-        Abena's Todo App
+        Abena's Meme Generator
       </h1>
     </header>
   );
-}
-
+};
 export default Header;
