@@ -6,12 +6,12 @@
 }
 
 body {
-    background-color: lightblue;
+    background-color: #F0F8FF;
 }
 
 .App {
     text-align: center;
-    background-color: magenta;
+    background-color: #F0F8FF;
     margin: 40px auto;
 }
 
@@ -23,13 +23,13 @@ body {
 .container {
     max-width: 500px;
     margin: 0 auto;
-    border-top: 1px solid #678c89;
+    border-top: 1px solid #0000CD;
 }
 
 .todo-item {
     list-style-type: none;
     padding: 10px 15px;
-    border-top: 1px solid #678c89;
+    border-top: 1px solid #0000CD;
     text-align: left;
 }
 
@@ -39,14 +39,14 @@ body {
 
 .completedStyle {
     font: italic;
-    color: #c5e2d2;
+    color: #F0F8FF;
     text-decoration: line-through;
 }
 
 .btn-style {
-    background: magenta;
+    background: #0000CD;
     color: #fff;
-    border: 1px solid magenta;
+    border: 1px solid #0000CD;
     padding: 3px 7px;
     border-radius: 50%;
     cursor: pointer;
@@ -65,7 +65,7 @@ body {
 }
 
 .meme-form {
-    background: #800080;
+    background: #c5e2d2;
     text-align: center;
     padding-top: 0px;
 }
@@ -79,7 +79,7 @@ body {
     cursor: pointer;
     padding: 6px 15px;
     text-transform: uppercase;
-    color: #800080;
+    color: #0000CD;
     font-weight: bold;
     width: 100%;
 }
@@ -157,7 +157,7 @@ body {
 .input-submit {
     flex: 2;
     border: none;
-    background: #800080;
+    background: #0000CD;
     color: #fff;
     text-transform: uppercase;
     cursor: pointer;
