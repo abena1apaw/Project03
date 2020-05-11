@@ -40,17 +40,21 @@ class TodoApp extends React.Component {
   };
 
   addTodo = (title) => {
-    const newTodo = {
-      // id: uuid.v4(),
-      id: uuidv4(),
-      title: title,
-      completed: false,
-    };
-    this.setState({
-      todos: [...this.state.todos, newTodo],
-    });
+    const todoWithSameTitle = this.state.todos.find( todo => todo.title === title );
+    if ( typeof todoWithSameTitle === 'undefined' ) {
+      const newTodo = {
+        id: uuidv4(),
+        title: title,
+        completed: false,
+      };
+      this.setState({
+        todos: [...this.state.todos, newTodo],
+      });
+    } else {
+      alert('Implement a proper error message for duplication');
+    }
   };
-
+  
   render() {
     return (
       <div className="container">
