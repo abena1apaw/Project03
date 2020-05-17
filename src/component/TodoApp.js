@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import Todos from "./Todos";
 import Header from "./layout/Header";
+import Footer from "./layout/Footer";
 import AddTodo from "./AddTodo";
 import { v4 as uuidv4 } from "uuid";
 
@@ -40,8 +41,10 @@ class TodoApp extends React.Component {
   };
 
   addTodo = (title) => {
-    const todoWithSameTitle = this.state.todos.find( todo => todo.title === title );
-    if ( typeof todoWithSameTitle === 'undefined' ) {
+    const todoWithSameTitle = this.state.todos.find(
+      (todo) => todo.title === title
+    );
+    if (typeof todoWithSameTitle === "undefined") {
       const newTodo = {
         id: uuidv4(),
         title: title,
@@ -51,10 +54,10 @@ class TodoApp extends React.Component {
         todos: [...this.state.todos, newTodo],
       });
     } else {
-      alert('Implement a proper error message for duplication');
+      alert("Implement a proper error message for duplication");
     }
   };
-  
+
   render() {
     return (
       <div className="container">
@@ -65,6 +68,7 @@ class TodoApp extends React.Component {
           handleChange={this.handleChange}
           deleteTodo={this.deleteTodo}
         />
+        <Footer />
       </div>
     );
   }
