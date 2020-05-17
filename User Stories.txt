@@ -1,9 +1,3 @@
-<<<<<<< HEAD
 As a student, I want to use the to do list app to enter my activities for the day by organizing tasks with a list, thus making everything much more manageable and makes one feel grounded so that seeing a clear outline of completed and uncompleted tasks will help one feel organized and stay mentally focused.
 As a small business owner, I want to use the app to collect feedback thus increasing my clientel and staying in touch with customers.
-As a young enthusiastice goal-setter, I want to put things in writing helps in the pursuit of achievement. The 'to do list' will force the goal-setter to examine a task and to reflect on the steps so that, preparation will yield a desired outcome.
-=======
-As a student, I can use the to do list app to enter my activities for the day. Organizing tasks with a list can make everything much more manageable and makes one feel grounded so that seeing a clear outline of completed and uncompleted tasks will help one feel organized and stay mentally focused.
-As an average social media user, eye catching memes allow me to express complex ideas through simple concepts. The meme generator will allow me to create my own memes.
-As a young enthusiastic goal-setter, putting things in writing helps in the pursuit of achievement. The 'to do list' will force the goal-setter to examine a task and to reflect on the steps so that, preparation will yield a desired outcome
->>>>>>> 233f94be229d84e5f18e6a8ba82c7b5ead426d08
+As a young enthusiastice goal-setter, I want to use this app to put things in writing to help in the pursuit of achievement because the 'to do list' will force the goal-setter to examine a task and to reflect on the steps so that, preparation will yield a desired outcome.
