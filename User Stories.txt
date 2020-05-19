@@ -1,3 +1,3 @@
 As a student, I want to use the to do list app to enter my activities for the day by organizing tasks with a list, thus making everything much more manageable and makes one feel grounded so that seeing a clear outline of completed and uncompleted tasks will help one feel organized and stay mentally focused.
-As a small business owner, I want to use the app to collect feedback thus increasing my clientel and staying in touch with customers.
-As a young enthusiastice goal-setter, I want to use this app to put things in writing to help in the pursuit of achievement because the 'to do list' will force the goal-setter to examine a task and to reflect on the steps so that, preparation will yield a desired outcome.
+As a small business owner, I want to use the app to collect feedback thus increasing my clientel.
+As a young enthusiastice goal-setter, I want to use this app to put things in writing thus forcing, I, the goal-setter to examine a task and to reflect on the steps so that, preparation will yield a desired outcome.
