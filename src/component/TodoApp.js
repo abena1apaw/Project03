@@ -41,6 +41,7 @@ class TodoApp extends React.Component {
   };
 
   addTodo = (title) => {
+    title = title.trim();
     const todoWithSameTitle = this.state.todos.find(
       (todo) => todo.title === title
     );
@@ -54,22 +55,23 @@ class TodoApp extends React.Component {
         todos: [...this.state.todos, newTodo],
       });
     } else {
-      alert("Implement a proper error message for duplication");
+      alert("Cannot submit an item more than once");
     }
   };
 
   render() {
     return (
-      <div className="container">
+      <div>
         <Header />
         <AddTodo addTodo={this.addTodo} />
         <Todos
           todos={this.state.todos}
           handleChange={this.handleChange}
           deleteTodo={this.deleteTodo}
-        />
-        <Footer />
+                  />
+        <Footer />          
       </div>
+      
     );
   }
 }

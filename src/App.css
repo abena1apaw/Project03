@@ -213,4 +213,12 @@ li {
 .show-nav {
     height: 120px;
 }
+
+ .footer {
+    width: 100%;
+    background-color: magenta;
+    color: white;
+    padding: 10px;
+}
+
 */
